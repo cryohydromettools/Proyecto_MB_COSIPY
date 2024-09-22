@@ -433,10 +433,16 @@ def create_2D_input(cs_file, cosipy_file, static_file, start_date, end_date, x0=
         P_interp[t,:,:] = SLP * np.power((1-(0.0065*ds.HGT.values)/(288.15)), 5.255)
 
         if (RRR_var in df):
-            RRR_interp[t,:,:] = np.maximum(RRR[t] + (ds.HGT.values-stationAlt)*lapse_RRR, 0.0)
+            if RRR[t] == 0.0:
+                RRR_interp[t,:,:] = 0.0
+            else:
+                RRR_interp[t,:,:] = np.maximum(RRR[t] + (ds.HGT.values-stationAlt)*lapse_RRR, 0.0)
         
         if (SNOWFALL_var in df):
-            SNOWFALL_interp[t, :, :] = SNOWFALL[t] + (ds.HGT.values-stationAlt)*lapse_SNOWFALL
+            if SNOWFALL[t] == 0.0:
+                SNOWFALL_interp[t, :, :] = 0.0
+            else:
+                SNOWFALL_interp[t, :, :] = SNOWFALL[t] + (ds.HGT.values-stationAlt)*lapse_SNOWFALL
 
         if(LWin_var in df):
             LW_interp[t,:,:] = LW[t]

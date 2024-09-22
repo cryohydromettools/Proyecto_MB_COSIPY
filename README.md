@@ -8,7 +8,7 @@ Claudio Bravo
 
 El proyecto está compuesto por cuatro cuadernos Jupyter en Python, en los que se detalla la aplicación del modelo glaciológico [COSIPY](https://cryo-tools.org/tools/cosipy/) para simular el balance de masa superficial de los glaciares. Para la ejecución del modelo, se emplearán datos topográficos extraídos de inventarios nacionales de glaciares, y datos meteorológicos obtenidos del conjunto de  reanálisis [ERA5](https://cds-beta.climate.copernicus.eu/). El proyecto se enfoca en cuatro glaciares ubicados en los Andes peruanos, la Patagonia chilena y el norte de la Península Antártica. Puedes observar la ubicación y algunas características de estos glaciares en la siguiente figura.
 
-<img src="img/mapa_taller.png.png" width="550"> <br>
+<img src="img/mapa_taller.png" width="650"> <br>
 
 En este proyecto se tratan los siguientes temas:
 

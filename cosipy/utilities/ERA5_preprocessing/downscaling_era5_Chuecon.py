@@ -78,12 +78,12 @@ df_nc['u2'] = U10 * (np.log(2/(2.12*1000))/np.log(10/(2.12*1000)))
 
 # total precipitation
 tp          = df_nc['tp'].values
-tp[tp < 0]  = 0.0
+tp[tp < (0.1/1000)]  = 0.0
 df_nc['tp'] = tp*1000
 
 # total precipitation
 sf          = df_nc['sf'].values
-sf[sf < 0]  = 0.0
+sf[sf < (0.1/1000)]  = 0.0
 df_nc['sf'] = sf
 
 
