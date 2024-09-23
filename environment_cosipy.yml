@@ -1,0 +1,18 @@
+name: cosipy
+channels:
+  - conda-forge
+dependencies:
+  - python==3.10
+  - jupyter
+  - jupyterlab
+  - xarray 
+  - netcdf4 
+  - numba 
+  - scipy  
+  - dask-jobqueue
+  - metpy
+  - matplotlib
+  - ipykernel
+  - pip
+  - pip:
+    - distributed==2023.8.0

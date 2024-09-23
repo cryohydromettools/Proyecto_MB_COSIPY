@@ -8,7 +8,7 @@
 #-----------------------------------
 # Zhadang
 time_start = '2020-01-01T00:00'
-time_end   = '2020-04-30T23:00'
+time_end   = '2020-03-31T23:00'
 
 # Hintereisferner
 #time_start = '2018-09-17T08:00'
@@ -23,8 +23,8 @@ time_end_str=(time_end[0:10]).replace('-','')
 data_path = './data/'
 
 # Zhadang example
-input_netcdf= 'Taller/Arteson_ERA5_2020.nc'
-output_netcdf = 'Arteson_ERA5_'+time_start_str+'-'+time_end_str+'.nc'
+input_netcdf= 'Taller/Chuecon_ERA5.nc'
+output_netcdf = 'Chuecon_ERA5_'+time_start_str+'-'+time_end_str+'.nc'
 
 # Hintereisferner example
 #input_netcdf = 'HEF/HEF_input.nc'

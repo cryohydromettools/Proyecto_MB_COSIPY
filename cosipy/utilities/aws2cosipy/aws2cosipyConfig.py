@@ -73,9 +73,9 @@ hgt = 5665.0
 # Interpolation arguments 
 #------------------------
 stationName = 'Chuecon'
-stationAlt = 5236.0
+stationAlt = 4968.0
 
 lapse_T         = -0.006    # Temp K per  m
 lapse_RH        =  0.000    # RH % per  m (0 to 1)
-lapse_RRR       =  0.0001   # mm per m
+lapse_RRR       =  0.001   # mm per m
 lapse_SNOWFALL  =  0.0000   # Snowfall % per m (0 to 1)

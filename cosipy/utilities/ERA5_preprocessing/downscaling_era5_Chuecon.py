@@ -8,7 +8,7 @@ import dateutil
 import glob
 
 
-hgt_aws = 5236.00
+hgt_aws = 4968.00
 
 #lat_aws = -62.67154536205238
 #lon_aws = -60.35032693570448

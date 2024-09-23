@@ -12,9 +12,9 @@ El proyecto está compuesto por cuatro cuadernos Jupyter en Python, en los que s
 
 En este proyecto se tratan los siguientes temas:
 
-1. [Preprocesamiento de datos]() :earth_africa:: Aquí aprenderemos a preparar los datos estáticos (topografía, pendiente, aspecto, macará) y meteorológicos (temperatura, precipitación, radiación solar, etc).
+1. [Preprocesamiento de datos](https://github.com/cryohydromettools/Proyecto_MB_COSIPY/blob/main/1_Preprocesamiento.ipynb) :earth_africa:: Aquí aprenderemos a preparar los datos estáticos (topografía, pendiente, aspecto, macará) y meteorológicos (temperatura, precipitación, radiación solar, etc).
 
-2. [Exploración de datos]() :mag:: Aquí aprenderemos a ver los datos de entrada a través de figuras espaciales y temporales. En caso de disponer de datos meteorológicos registrados por una estación cercana al glaciar, estos pueden emplearse para verificar la precisión de los datos de ERA5 e incluso ajustarlos si es necesario.
+2. [Exploración de datos](https://github.com/cryohydromettools/Proyecto_MB_COSIPY/blob/main/2_Exploracion_datos.ipynb) :mag:: Aquí aprenderemos a ver los datos de entrada a través de figuras espaciales y temporales. En caso de disponer de datos meteorológicos registrados por una estación cercana al glaciar, estos pueden emplearse para verificar la precisión de los datos de ERA5 e incluso ajustarlos si es necesario.
 
 3. [Ejecución del modelo ]() :rocket:: Aquí aprenderemos a ejecutar el modelo COSIPY. Además, exploraremos los diferentes parámetros libres que tiene el modelo.
 
