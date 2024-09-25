@@ -16,9 +16,9 @@ En este proyecto se tratan los siguientes temas:
 
 2. [Exploración de datos](https://github.com/cryohydromettools/Proyecto_MB_COSIPY/blob/main/2_Exploracion_datos.ipynb) :mag:: Aquí aprenderemos a ver los datos de entrada a través de figuras espaciales y temporales. En caso de disponer de datos meteorológicos registrados por una estación cercana al glaciar, estos pueden emplearse para verificar la precisión de los datos de ERA5 e incluso ajustarlos si es necesario.
 
-3. [Ejecución del modelo ]() :rocket:: Aquí aprenderemos a ejecutar el modelo COSIPY. Además, exploraremos los diferentes parámetros libres que tiene el modelo.
+3. [Ejecución del modelo ](https://github.com/cryohydromettools/Proyecto_MB_COSIPY/blob/main/3_Ejecutar_COSIPY.ipynb) :rocket:: Aquí aprenderemos a ejecutar el modelo COSIPY. Además, exploraremos los diferentes parámetros libres que tiene el modelo.
 
-4. [Análisis de resultados]() :dart:: Una vez que hayamos generado resultados con el modelo COSIPY, aquí aprenderemos a analizar estas salidas mediante figuras espaciales y temporales.
+4. [Análisis de resultados](https://github.com/cryohydromettools/Proyecto_MB_COSIPY/blob/main/4_Analizar_salida.ipynb) :dart:: Una vez que hayamos generado resultados con el modelo COSIPY, aquí aprenderemos a analizar estas salidas mediante figuras espaciales y temporales.
 
 
 
