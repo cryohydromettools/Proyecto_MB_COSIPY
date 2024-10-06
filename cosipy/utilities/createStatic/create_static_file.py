@@ -6,7 +6,6 @@ import os
 import xarray as xr
 import numpy as np
 from itertools import product
-import richdem as rd
 
 static_folder = '../../data/static/'
 
